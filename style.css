@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------ */
+/* 10 HEADER */
+
+.header {
+    /* border: 5px solid red; */
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------ */
+/* 20 HEADER LEFT */
+
+.h-section-left {
+    /* border: 5px solid blue; */
+    display: flex;
+}
+
+.img-logo {
+    /* max-width: 100%;
+    max-height: 100%; */
+    height: 40px;
+    align-self: center;
+}
+
+.title-logo {
+    align-self: center;
+    font-size: 1.5em;
+}
+
+/* ------------------------------------ */
+/* 30 HEADER RIGHT */
+
+.h-section-right {
+    /* border: 5px solid orange; */
+    align-self: center;
+}
+
+#levels {
+    padding-right: 5em;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #E6E6E6;
+    border: 1px solid #B3B3B3;
+    outline: none;
+    cursor: pointer;
+    padding: .1em 1.5em;
+    border-radius: .3em;
+}
+
+#btn-custom {
+    background: linear-gradient(45deg, #883ADB, #017EC9);
+    color: white;
+    border-color: #222;
+}
+
+#btn-custom:hover, #btn-custom:focus {
+    background: linear-gradient(45deg, #6B2FAF, #005F9B);
+    border-color: black;
+    box-shadow: 0 0 5px 0 black;
+}
+
+/* ------------------------------------ */
+/* 40 MAIN */
+
+.main {
+    background: linear-gradient(45deg, #883ADB, #5454D4);
+    /* background-color: #7EFFD4; */
+    /* background-image: repeating-linear-gradient(45deg, transparent, transparent 20px, #ACF3DB 20px, #7BFAD0 23px); */
+    border-radius: 15px;
+    margin: 0 2vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    user-select: none;
+    margin: auto;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    cursor: pointer;
+    width: calc(100% / 10);
+    border-radius: 6px;
+}
+
+.select {
+    background-color: gold;
+}
+
+.bomb{
+    background-color: red;
+}
+
+/* ------------------------------------ */
+/* 50 FOOTER */
+
+.footer {
+    /* border: 5px solid darkviolet; */
+    height: 10vh;
+}
+
+.made-with {
+    /* border: 5px solid blue; */
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}

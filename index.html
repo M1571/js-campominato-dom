@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampoMinato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- ------------------------------------- -->
+    <!-- 10 HEADER -->
+
+    <header class="header">
+
+        <!-- ------------------------------------- -->
+        <!-- 20 HEADER LEFT -->
+
+        <div class="h-section-left">
+
+            <img class="img-logo" src="/original.png" alt="">
+            <h1 class="title-logo">Campo Minato</h1>
+
+        </div>
+
+        <!-- ------------------------------------- -->
+        <!-- 30 HEADER RIGHT -->
+
+        <div class="h-section-right">
+
+            <label id="difficulty" for="Difficulty">Difficoltà:</label>
+
+            <select name="levels" id="levels">
+                <option value="1">Easy</option>
+                <option value="2">Hard</option>
+                <option value="3">Crazy</option>
+            </select>
+
+            <button class="btn" id="play btn-custom">Play</button>
+        </div>
+
+    </header>
+
+    <!-- ------------------------------------- -->
+    <!-- 40 MAIN -->
+
+    <main class="main">
+        <div id="grid" class="grid-container"> 
+            <div class="cell">1</div>
+            <div class="cell">2</div>
+            <div class="cell select">3</div>
+            <div class="cell select">4</div>
+            <div class="cell">5</div>
+            <div class="cell">6</div>
+            <div class="cell">7</div>
+            <div class="cell bomb">8</div>
+            <div class="cell">9</div>
+            <div class="cell">10</div>
+        </div>
+    </main>
+
+    <!-- ------------------------------------- -->
+    <!-- 50 FOOTER -->
+
+    <footer class="footer">
+        <p class="made-with">Made with &hearts; by <a href="#">Boolean</a></p>
+    </footer>
+
+    <!-- ------------------------------------- -->
+    <!-- JS -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>
